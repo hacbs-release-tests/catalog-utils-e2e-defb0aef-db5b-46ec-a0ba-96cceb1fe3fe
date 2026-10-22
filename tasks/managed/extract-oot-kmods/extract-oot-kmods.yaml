@@ -113,7 +113,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: extract-kmods
-      image: quay.io/konflux-ci/release-service-utils@sha256:a9cded57ab847178ebc4807d9a7ca0642ea1903ddddfc9327748983cc7501703
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:24b7d41b5179bdfcd92fbd7297570d3a2087913f290cdec16ba18c24d4b8197c
       computeResources:
         limits:
           memory: 1280Mi
